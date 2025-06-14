@@ -4,7 +4,7 @@
 typedef struct {
     long timestamp;
     char id_sensor[50];
-    char valor_string[50];
+    char valor_string[100];
 } LeituraSensor;
 
 #endif
